@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Background images for different sections */
+body.start-section {
+    background: url('dark.jpeg') no-repeat center center/cover;
+}
+
+body.north-section {
+    background: url('river.jpeg.jpeg') no-repeat center center/cover;
+}
+
+body.east-section {
+    background: url('hut.jpg.webp') no-repeat center center/cover;
+}
+
+body.swim-section {
+    background: url('victory.jpeg') no-repeat center center/cover;
+}
+
+body.village-section {
+    background: url('village.jpg.webp') no-repeat center center/cover;
+}
+
+body.hut-section {
+    background: url('Tea.jpg.webp') no-repeat center center/cover;
+}
+
+body.exit-section {
+    background: url('forest-exit.jpg.webp') no-repeat center center/cover;
+}
